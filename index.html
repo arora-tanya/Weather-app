@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather application</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-header">
+        <form class="weather-search">
+          <input
+            type="text"
+            placeholder="Search for a city..."
+            class="weather-search--form"
+          />
+          <i class="fas fa-search"></i>
+        </form>
+        <!--<div class="weather-units">
+          <span class="weather-unit-celcius">&#176C</span>
+          <span class="weather-unit-farenheit">&#176F</span>
+        </div>-->
+      </div>
+      <div class="weather-body">
+        <h1 class="weather-city"></h1>
+        <div class="weather-daytime">
+        </div>
+        <div class="weather-forecast">
+        </div>
+        <div class="weather-icon">
+        </div>
+        <p class="weather-temperature"></p>
+        <div class="weather-minmax">
+        </div>
+      </div>
+      <div class="weather-info">
+        <div class="weather-card">
+          <i class="fas fa-thermometer-full"></i>
+          <div>
+            <p>Real Feel</p>
+            <p class="weather-realfeel">11&#176</p>
+          </div>
+        </div>
+        <div class="weather-card">
+          <i class="fas fa-tint"></i>
+          <div>
+            <p>Humidity</p>
+            <p class="weather-humidity">11&#176</p>
+          </div>
+        </div>
+        <div class="weather-card">
+          <i class="fas fa-wind"></i>
+          <div>
+            <p>Wind</p>
+            <p class="weather-wind">11&#176</p>
+          </div>
+        </div>
+        <div class="weather-card">
+          <i class="fas fa-tachometer-alt"></i>
+          <div>
+            <p>Pressure</p>
+            <p class="weather-pressure">11&#176</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e79b5b76b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
